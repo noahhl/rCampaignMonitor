@@ -14,7 +14,7 @@ GetActiveSubscribers <- function(listid, api_key, since="2000-01-01", limit="ALL
 }
 
 
-BulkAddCustomField <- function(subscribers, fieldName, destinationList=AllSubscribersListID, api_key, verbose=FALSE) {
+BulkAddCustomField <- function(subscribers, fieldName, destinationList, api_key, verbose=FALSE) {
   s <- list()
   for(i in 1:nrow(subscribers)) {
     CustomFields <- list()
