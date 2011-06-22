@@ -1,0 +1,9 @@
+Package: rCampaignMonitor
+Title: Campaign Monitor wrapper for R
+Version: 0.0
+Date: 2011-04-12
+Author: Noah Lorang
+Maintainer: Noah Lorang <noah@noahhl.com>
+Description: Wrapper for Campaign Monitor's API
+Depends: RCurl, rjson, XML
+License: MIT
